@@ -83,7 +83,7 @@ input[class^="btn-"]:hover {
 
 @font-face {
   font-family: "Ravenwood";
-  src: url("/dist/fonts/ravenwood/ravenwood-webfont.woff") format("woff"), url("/dist/fonts/ravenwood/ravenwood-webfont.woff2") format("woff2");
+  src: url("../fonts/ravenwood/ravenwood-webfont.woff") format("woff"), url("../fonts/ravenwood/ravenwood-webfont.woff2") format("woff2");
   font-weight: 400;
   font-style: normal; }
 
