@@ -1,0 +1,14 @@
+//variables
+$website-width: 1280px;
+$light-color: #f4f4f4;
+$dark-color: #242222;
+$medium-color: #ccc;
+
+//Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
